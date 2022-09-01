@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+
+body > div {
+    display: flex;
+}
+
+.left-side,
+.right-side {
+    max-width: 30vw;
+}
