@@ -30,6 +30,11 @@ body > div {
     display: flex;
 }
 
+.vertical-line {
+    height: 100%;
+    border: black solid 1px;
+}
+
 .left-side,
 .right-side {
     max-width: 30vw;
