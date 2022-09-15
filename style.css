@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 
+:root {
+    --light-grey: #6d6d6d;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -47,3 +51,37 @@ body > div {
     justify-content: space-around;
     position: relative;
 }
+
+a {
+    text-decoration: none;
+    color: var(--light-grey);
+    position: relative;
+    width: fit-content;
+
+    transition: ease-out 0.3s;
+}
+
+a:hover {
+    color: black;
+}
+
+a::after {
+    content: "";
+    background-color: var(--light-grey);
+    display: inline-block;
+    
+    width: 0;
+    height: 2px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    transition: ease-out 0.3s;
+}
+
+a:hover::after {
+    width: 100%;
+    background-color: black;
+}
+
