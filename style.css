@@ -30,6 +30,11 @@ h1 {
     align-self: flex-start;
 }
 
+body > h2 {
+    align-self: flex-start;
+    color: var(--light-grey);
+}
+
 body > div {
     display: flex;
 }
@@ -54,7 +59,7 @@ body > div {
 
 a {
     text-decoration: none;
-    color: var(--light-grey);
+    color: var(--light-grey);   
     position: relative;
     width: fit-content;
 
