@@ -39,6 +39,11 @@ body > div {
     display: flex;
 }
 
+p {
+    background-color: #e8e8e8;
+    padding: 10px;
+}
+
 .vertical-line {
     height: 100%;
     border: black solid 1px;
